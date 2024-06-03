@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSEUDOCORE: Charles Daniel Nolasco - Personal Portfolio</title>
+  <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/profile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="../assets/videos/geometric_bg.mp4" type="video/mp4">
+   
+  </video>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="../assets/images/Charles/charles.png" alt="DP">
+        </figure>
+      
+        <div class="info-content">
+          <h1 class="name" style="font-size: 19px;">Charles Daniel M. Nolasco</h1>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:richard@example.com" class="contact-link">danielnolasco13@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">0929-620-0595</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">April 30, 2002</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>57 Mangustan Rd., Potrero, Malabon City</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+ <a href="https://www.facebook.com/0000.cdmn/" class="social-link" target="_blank">
+    <ion-icon name="logo-facebook"></ion-icon>
+</a>
+          </li>
+        
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+     
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../index.html"><button class="navbar-link  "  data-nav-link>Home</button></a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A mobile and game developer with experience in both front-end and back-end of app development. He can develop any application into a fully functional one with UI fitting the current age. With experience in creating multiple mobile applications, the most notable one being ARFitCheck, he is sure to not disappoint when he handles your project.
+          </p>
+
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="../assets/images/ui.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Mobile Development</h4>
+
+                <p class="service-item-text">
+                    An exceptional development of mobile applications. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="../assets/images/backEnd.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-End Mobile Development</h4>
+
+                <p class="service-item-text">
+                  Has the ability to manage databases meant for mobile applications
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="../assets/images/ar.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Augmented Reality Development</h4>
+
+                <p class="service-item-text">
+                  Has experience in applying Augmented Reality to improve user experience
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img  class="testimonial-pic" src="./assets/images/avatar-1.png" width="80" data-modal-img>
+              </figure>
+            </div>
+
+    
+          </section>
+        </div>
+
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://www.facebook.com/bmic.clothing" target="_blank">
+                <img src="../assets/images/Jeon/B_MIC.jpg" alt="client logo" width = "2000px">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">STI College Caloocan</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Information Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">De La Salle Araneta University</h4>
+
+              <span>2018 - 2020
+              </span>
+
+              <p class="timeline-text">
+                Senior High School
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">De La Salle Araneta University</h4>
+              <span>2014 - 2018</span>
+              <p class="timeline-text">
+                Junior High School
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.MIC Android Developer and Augmented Reality Developer</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Integrate augmented reality features into mobile apps.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section >
+          <h3 class="h3 skills-title">Technical Fammiliarities</h3>
+          <div class="knowledge-card">
+            <img src="../assets/images/html.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/css-3.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/c-sharp.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/figma.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/xd.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/python.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/js.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/photoshop.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/sql-server.png" width="60" data-testimonials-avatar>
+            <img src="../assets/images/xml.png" width="60" data-testimonials-avatar>
+              </div>
+      </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+        
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+          
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="Front-End Development">
+              <a href="https://github.com/Gian-Lim/EVENT-MANAGEMENT-SYSTEM-CATERING" target = "_blank" >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="../assets/images/Gian/customer.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Event Management Catering System</h3>
+                <p class="project-category">Front-End Development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Front-End Development">
+              <a href= "https://github.com/Gian-Lim/WANIFY-FINAL" target = "_blank" >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="../assets/images/Jeon/wanify.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Wanify</h3>
+                <p class="project-category">Front-End Development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Front-End Development">
+              <a href="https://github.com/Gian-Lim/COVID-VACCINE-RESERVATION-SYSTEM-CONSOLE" target = "_blank" >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="../assets/images/Jeon/reservac.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Reservac</h3>
+                <p class="project-category">Console Application</p>
+              </a>
+            </li>
+          
+            <li class="project-item  active" data-filter-item data-category="Front-End Development">
+              <a href="https://github.com/CDMN-0/SPACE-IMPACT" target = "_blank" >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="../assets/images/Charles/space.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Space Impact</h3>
+                <p class="project-category">Python Game Development</p>
+              </a>
+            </li>
+          </ul>
+          
+      </article>
+    </div>
+  </main>
+  <script src="../assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
